@@ -3,8 +3,7 @@ from mbasics2 import Basics2
 from mbasics3 import Basics3
 from mbasics4 import Basics4
 from mbasics5 import Basics5
-
-import numpy as np
+from mbasics7 import Basics7
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -50,8 +49,13 @@ b5.hcf()
 b5.ascii_value()
 print('++++++++ END ++++++++++++++\n')
 
-
-
+b7 = Basics7()
+print('++++++++ Basics 7 +++++++++')
+b7.array_rotation()
+b7.largest_element()
+b7.sum_of_array()
+b7.splitting_array()
+print('++++++++ END ++++++++++++++\n')
 
 
 
