@@ -7,6 +7,7 @@ from mbasics6 import Basics6
 from mbasics7 import Basics7
 from mbasics8 import Basics8
 from mbasics9 import Basics9
+from mbasic10 import Basic10
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -85,4 +86,15 @@ b9.print_happy_number()
 b9.harshad = 18
 b9.harshad_number()
 b9.print_harshad_numbers()
+print('++++++++ END ++++++++++++++\n')
+
+b10 = Basic10()
+print('++++++++ Basics 10 +++++++++')
+b10.sum_of_list()
+b10.product_of_elements()
+b10.smallest_and_largest_number()
+b10.selective_large_elements()
+b10.even_odd()
+b10.remove_emptylist()
+b10.count_occurrence()
 print('++++++++ END ++++++++++++++\n')
