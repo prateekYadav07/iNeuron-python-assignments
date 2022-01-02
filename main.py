@@ -3,6 +3,7 @@ from mbasics2 import Basics2
 from mbasics3 import Basics3
 from mbasics4 import Basics4
 from mbasics5 import Basics5
+from mbasics6 import Basics6
 from mbasics7 import Basics7
 from mbasics8 import Basics8
 from mbasics9 import Basics9
@@ -49,6 +50,14 @@ print('++++++++ Basics 5 +++++++++')
 b5.lcm()
 b5.hcf()
 b5.ascii_value()
+print('++++++++ END ++++++++++++++\n')
+
+b6 = Basics6()
+print('++++++++ Basics 6 +++++++++')
+print(b6.factorial(5))
+b6.bmicalc()
+b6.cube_sum()
+b6.finding_log()
 print('++++++++ END ++++++++++++++\n')
 
 b7 = Basics7()
