@@ -4,6 +4,8 @@ from mbasics3 import Basics3
 from mbasics4 import Basics4
 from mbasics5 import Basics5
 from mbasics7 import Basics7
+from mbasics8 import Basics8
+from mbasics9 import Basics9
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -57,7 +59,21 @@ b7.sum_of_array()
 b7.splitting_array()
 print('++++++++ END ++++++++++++++\n')
 
+b8 = Basics8()
+print('++++++++ Basics 8 +++++++++')
+b8.add_matrices()
+b8.mul_matrix()
+b8.transpose()
+b8.remove_punctutation()
+print('++++++++ END ++++++++++++++\n')
 
-
-
-
+b9 = Basics9()
+print('++++++++ Basics 9 +++++++++')
+b9.disarium_number()
+b9.print_disarium_numbers()
+b9.happy_number()
+b9.print_happy_number()
+b9.harshad = 18
+b9.harshad_number()
+b9.print_harshad_numbers()
+print('++++++++ END ++++++++++++++\n')
