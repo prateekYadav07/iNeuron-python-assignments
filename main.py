@@ -9,6 +9,7 @@ from mbasics8 import Basics8
 from mbasics9 import Basics9
 from mbasic10 import Basic10
 from mbasic11 import Basics11
+from mbasic12 import Basics12
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -108,4 +109,11 @@ b11.bin_string = '110103101'
 b11.binary_check()
 b11.uncommon_words()
 b11.duplicate_strings()
+print('++++++++ END ++++++++++++++\n')
+
+b12 = Basics12()
+print('++++++++ Basics 12 +++++++++')
+b12.sum_values()
+b12.merging_dicts()
+b12.sorting()
 print('++++++++ END ++++++++++++++\n')
