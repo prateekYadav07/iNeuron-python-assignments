@@ -8,6 +8,7 @@ from mbasics7 import Basics7
 from mbasics8 import Basics8
 from mbasics9 import Basics9
 from mbasic10 import Basic10
+from mbasic11 import Basics11
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -98,3 +99,12 @@ b10.even_odd()
 b10.remove_emptylist()
 b10.count_occurrence()
 print('++++++++ END ++++++++++++++\n')
+
+b11 = Basics11()
+print('++++++++ Basics 11 +++++++++')
+b11.word_length = 15
+b11.removing_char()
+b11.bin_string = '110103101'
+b11.binary_check()
+b11.uncommon_words()
+b11.duplicate_strings()
