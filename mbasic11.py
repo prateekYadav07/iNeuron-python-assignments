@@ -75,13 +75,21 @@ class Basics11:
 
         print(f'uncommon words are: {o_l}')
 
-    def duplicate_strings(self):
-        d_list = self.dup_str.lower().split(' ')
-        output_list = []
+    def remove_duplicates(self, phrase):
+        d_list = phrase.lower().split(' ')
+        output_string = ''
 
         for char in d_list:
-            if (d_list.count(char) > 1) and not (char in output_list):
-                output_list.append(char)
+            if (d_list.count(char) > 1):
+                d_list.remove(char)
 
+        for char in d_list:
+            output_string += char + ' '
+
+        return output_string
+
+    def duplicate_strings(self):
+
+        op = self.remove_duplicates(self.dup_str)
         print(f'original: {self.dup_str}')
-        print(f'duplicates: {output_list}')
+        print(f'duplicates: {op}')

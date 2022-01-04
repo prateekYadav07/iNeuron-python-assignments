@@ -10,6 +10,7 @@ from mbasics9 import Basics9
 from mbasic10 import Basic10
 from mbasic11 import Basics11
 from mbasic12 import Basics12
+from mbasic13 import Basics13
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -116,4 +117,14 @@ print('++++++++ Basics 12 +++++++++')
 b12.sum_values()
 b12.merging_dicts()
 b12.sorting()
+print('++++++++ END ++++++++++++++\n')
+
+b13 = Basics13()
+print('++++++++ Basics 13 +++++++++')
+b13.ques1()
+b13.ques2()
+b13.ques3()
+b13.ques4()
+b13.ques5()
+b13.ques6()
 print('++++++++ END ++++++++++++++\n')
