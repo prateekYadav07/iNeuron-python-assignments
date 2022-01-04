@@ -2,7 +2,7 @@ from random import choice
 from random import randint
 
 
-class Basic14:
+class Basics14:
 
     def __init__(self):
         self.n = 100
