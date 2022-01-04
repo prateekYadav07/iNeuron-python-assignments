@@ -130,7 +130,7 @@ b13.ques5()
 b13.ques6()
 print('++++++++ END ++++++++++++++\n')
 
-b14 = Basic14()
+b14 = Basics14()
 b14M = b14.Person.Male()
 b14F = b14.Person.Female()
 print('++++++++ Basics 14 +++++++++')
