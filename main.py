@@ -11,6 +11,7 @@ from mbasic10 import Basic10
 from mbasic11 import Basics11
 from mbasic12 import Basics12
 from mbasic13 import Basics13
+from mbasic14 import Basic14
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -128,3 +129,14 @@ b13.ques4()
 b13.ques5()
 b13.ques6()
 print('++++++++ END ++++++++++++++\n')
+
+b14 = Basic14()
+b14M = b14.Person.Male()
+b14F = b14.Person.Female()
+print('++++++++ Basics 14 +++++++++')
+b14.ques1()
+b14.ques2()
+b14M.getGender()
+b14F.getGender()
+b14.ques4()
+b14.ques6()
