@@ -12,6 +12,7 @@ from mbasic11 import Basics11
 from mbasic12 import Basics12
 from mbasic13 import Basics13
 from mbasic14 import Basics14
+from mbasic15 import Basics15
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -140,3 +141,16 @@ b14M.getGender()
 b14F.getGender()
 b14.ques4()
 b14.ques6()
+print('++++++++ END ++++++++++++++\n')
+
+b15 = Basics15()
+b15square = Basics15.Shape.Square()
+print('++++++++ Basics 15 +++++++++')
+b15.ques1()
+b15.ques2()
+b15.ques3()
+b15.ques4()
+b15square.set_side(24.7)
+print(b15square.get_area())
+print(b15square.get_perimeter())
+print('++++++++ END ++++++++++++++\n')
