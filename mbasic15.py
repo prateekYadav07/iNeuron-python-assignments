@@ -123,9 +123,11 @@ class Basics15:
         def __init__(self):
             pass
 
+        @staticmethod
         def show_shapes(self):
             print('Shapes: \n1.Square \n2.Triangle \n3.Rectangle \n4.Circle \n5.Trapezium')
 
+        @staticmethod
         def get_area(self):
             area = 0
             return area
