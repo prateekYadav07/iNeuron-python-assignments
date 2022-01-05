@@ -13,6 +13,7 @@ from mbasic12 import Basics12
 from mbasic13 import Basics13
 from mbasic14 import Basics14
 from mbasic15 import Basics15
+from mbasics16 import Basics16
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -153,4 +154,13 @@ b15.ques4()
 b15square.set_side(24.7)
 print(b15square.get_area())
 print(b15square.get_perimeter())
+print('++++++++ END ++++++++++++++\n')
+
+b16 = Basics16()
+print('++++++++ Basics 16 +++++++++')
+b16.ques1()
+b16.ques2()
+b16.ques3()
+b16.ques4()
+b16.ques5()
 print('++++++++ END ++++++++++++++\n')
