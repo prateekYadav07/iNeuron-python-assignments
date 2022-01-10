@@ -1,7 +1,7 @@
 class Basics18:
 
     def __init__(self):
-        self.lst1 = [1, 2, "a", 'b', 'v']
+        self.lst1 = [[1, 2, "a", 'b', 'v'], ["A", 0, "Edabit", 1729, "Python", "1729"], ["Nothing", "here"]]
         self.lst = ["a", "a", "a", "b"]
         self.string = 'Hello Python'
         self.ele = 'a'
@@ -19,11 +19,12 @@ class Basics18:
     '''
 
     def filter_list(self):
-        lst = self.lst1
-        for char in lst:
-            if str(char).isalpha():
-                lst.remove(char)
-        print(f'{self.lst1} -> {lst}')
+        for l in self.lst1:
+            lst = l
+            for char in lst:
+                if str(char).isalpha():
+                    lst.remove(char)
+            print(f'{l} -> {lst}')
 
     def ques1(self):
         self.filter_list()
