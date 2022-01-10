@@ -15,6 +15,7 @@ from mbasic14 import Basics14
 from mbasic15 import Basics15
 from mbasics16 import Basics16
 from mbasics17 import Basics17
+from mbasics18 import Basics18
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -173,4 +174,11 @@ b17.ques2()
 b17.ques3()
 b17.ques4()
 b17.ques5()
+print('++++++++ END ++++++++++++++\n')
+
+b18 = Basics18()
+print('++++++++ Basics 18 +++++++++')
+b18.ques1()
+b18.ques2()
+b18.ques5()
 print('++++++++ END ++++++++++++++\n')
