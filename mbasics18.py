@@ -1,6 +1,3 @@
-import random
-
-
 class Basics18:
 
     def __init__(self):
@@ -45,7 +42,6 @@ class Basics18:
     '''
 
     def reverse(self):
-        op_string = ''
         op_string = self.string[-1::-1].swapcase()
         print(f'{self.string} -> {op_string}')
 
@@ -71,7 +67,7 @@ class Basics18:
         count_element = 0
         for i in range(len(temp_list)):
             if temp_list[i] == element:
-                count_element +=1
+                count_element += 1
 
         for i in range(len(temp_list)):
             if not element == temp_list[i]:
