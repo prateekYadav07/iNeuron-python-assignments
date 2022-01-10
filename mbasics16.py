@@ -134,8 +134,8 @@ class Basics16:
                 temp = str(rem) + temp
                 i = i // 2
 
-            if len(temp)<4:
-                for j in range(4-len(temp)):
+            if len(temp) < 4:
+                for j in range(4 - len(temp)):
                     temp = "0" + temp
                 print(f'binary({num}) -> {temp}')
             else:
