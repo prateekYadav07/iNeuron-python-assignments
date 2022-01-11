@@ -14,6 +14,7 @@ class Basics5:
     def lcm(self):
 
         global greater
+
         if self.num1 > self.num2:
             greater = self.num1
         elif self.num2 > self.num1:
