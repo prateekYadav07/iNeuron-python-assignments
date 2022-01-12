@@ -1,3 +1,4 @@
+import mbasic24
 from mbasics1 import Basics1
 from mbasics2 import Basics2
 from mbasics3 import Basics3
@@ -21,6 +22,8 @@ from mbasics20 import Basics20
 from mbasic21 import Basics21
 from mbasic22 import Basics22
 from mbasic23 import Basics23
+from mbasic24 import Basics24
+from mbasic25 import Basics25
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -228,4 +231,24 @@ b23.ques2()
 b23.ques3()
 b23.ques4()
 b23.ques5()
+print('++++++++ END ++++++++++++++\n')
+
+b24 = Basics24()
+b24circle = mbasic24.Circle(11)
+b24circle2 = mbasic24.Circle(4.44)
+print('++++++++ Basics 24 +++++++++')
+b24.ques1()
+b24.ques2()
+print('circle(11) area -> ', b24circle.get_area())
+print('circle(11) perimeter -> ', b24circle.get_perimeter())
+print('circle(4.44) perimeter -> ', b24circle2.get_perimeter())
+print('circle(4.44) area -> ', b24circle2.get_area())
+b24.ques5()
+print('++++++++ END ++++++++++++++\n')
+
+b25 = Basics25()
+print('++++++++ Basics 25 +++++++++')
+b25.ques1()
+b25.ques4()
+b25.ques5()
 print('++++++++ END ++++++++++++++\n')
