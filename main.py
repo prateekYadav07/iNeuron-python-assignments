@@ -27,6 +27,7 @@ from mbasic25 import Basics25
 ''' ######################### '''
 from advance1 import Advanced1
 from advance2 import Advanced2
+from advance3 import Advanced3
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -271,4 +272,11 @@ a2.ques1()
 a2.ques2()
 a2.ques4()
 a2.ques5()
+print('++++++++ END ++++++++++++++\n')
+
+a3 = Advanced3()
+print('++++++++ Advanced 2 +++++++++')
+a3.ques2()
+a3.ques3()
+a3.ques4()
 print('++++++++ END ++++++++++++++\n')
