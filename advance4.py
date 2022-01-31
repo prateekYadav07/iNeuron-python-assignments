@@ -1,9 +1,19 @@
+def factorial(num):
+    if num == 0:
+        return 1
+    elif num == 1:
+        return 1
+    else:
+        return num * factorial(num - 1)
+
+
 class Advanced4:
 
     def __init__(self):
         self.fib_input = [5, 10, 20, 50]
         self.censored_strings = [("Wh*r* d*d my v*w*ls g*?", "eeioeo"),
                                  ("abcd", ""), ("*PP*RC*S*", "UEAE")]
+        self.factorial_numbers = [4, 5, 6, 7]
 
     '''
     1. In mathematics, the Fibonacci numbers, commonly denoted Fn, form a sequence, called the Fibonacci sequence, 
@@ -85,8 +95,33 @@ class Advanced4:
         self.uncensor()
 
     '''
-    
+    4. Write a function that takes an IP address and returns the domain name using PTR DNS records.
+
+    Example
+    get_domain("8.8.8.8") ➞ "dns.google"
+    get_domain("8.8.4.4") ➞ "dns.google"
     '''
+
+    '''
+    
+    5. Create a function that takes an integer n and returns the factorial of factorials. See below examples for a better understanding:
+    
+    Examples
+    fact_of_fact(4) ➞ 288
+    # 4! * 3! * 2! * 1! = 288
+    fact_of_fact(5) ➞ 34560
+    fact_of_fact(6) ➞ 24883200
+    '''
+
+    def fact_of_fact(self):
+        for num in self.factorial_numbers:
+            fact2 = 1
+            for i in range(2, num + 1):
+                fact2 *= factorial(i)
+            print(f'fact_of_fact({num}) -> {fact2}')
+
+    def ques5(self):
+        self.fact_of_fact()
 
     # N = input()
     # speed_string = input()
