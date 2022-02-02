@@ -24,11 +24,13 @@ from mbasic22 import Basics22
 from mbasic23 import Basics23
 from mbasic24 import Basics24
 from mbasic25 import Basics25
+
 ''' ######################### '''
 from advance1 import Advanced1
 from advance2 import Advanced2
 from advance3 import Advanced3
 from advance4 import Advanced4
+from advance5 import Advanced5
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -288,4 +290,12 @@ a4.ques1()
 a4.ques2()
 a4.ques3()
 a4.ques5()
+print('++++++++ END ++++++++++++++\n')
+
+a5 = Advanced5()
+print('++++++++ Advanced 5 +++++++++')
+a5.ques2()
+a5.ques3()
+a5.ques4()
+a5.ques5()
 print('++++++++ END ++++++++++++++\n')
