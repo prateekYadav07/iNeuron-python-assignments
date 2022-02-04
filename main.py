@@ -302,7 +302,7 @@ a5.ques5()
 print('++++++++ END ++++++++++++++\n')
 
 a6 = Advanced6()
-print('++++++++ Advanced 5 +++++++++')
+print('++++++++ Advanced 6 +++++++++')
 a6.ques1()
 a6.ques2()
 a6.ques3()
