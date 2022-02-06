@@ -32,6 +32,8 @@ from advance3 import Advanced3
 from advance4 import Advanced4
 from advance5 import Advanced5
 from advance6 import Advanced6
+from advance7 import Advanced7
+from advance8 import Advanced8
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -307,4 +309,19 @@ a6.ques1()
 a6.ques2()
 a6.ques3()
 a6.ques4()
+print('++++++++ END ++++++++++++++\n')
+
+a7 = Advanced7()
+print('++++++++ Advanced 7 +++++++++')
+a7.ques1()
+a7.ques2()
+a7.ques4()
+a7.ques5()
+print('++++++++ END ++++++++++++++\n')
+
+a8 = Advanced8()
+print('++++++++ Advanced 7 +++++++++')
+a8.ques1()
+a8.ques2()
+a8.ques3()
 print('++++++++ END ++++++++++++++\n')
