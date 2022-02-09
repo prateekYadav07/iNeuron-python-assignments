@@ -27,6 +27,7 @@ from mbasic24 import Basics24
 from mbasic25 import Basics25
 
 ''' ######################### '''
+
 from advance1 import Advanced1
 from advance2 import Advanced2
 from advance3 import Advanced3
@@ -36,6 +37,7 @@ from advance6 import Advanced6
 from advance7 import Advanced7
 from advance8 import Advanced8
 from advance9 import Advanced9
+from advance10 import Advanced10
 
 b1 = Basics1()
 print('++++++++ Basics 1 +++++++++')
@@ -322,16 +324,23 @@ a7.ques5()
 print('++++++++ END ++++++++++++++\n')
 
 a8 = Advanced8()
-print('++++++++ Advanced 7 +++++++++')
+print('++++++++ Advanced 8 +++++++++')
 a8.ques1()
 a8.ques2()
 a8.ques3()
 print('++++++++ END ++++++++++++++\n')
 
 a9 = Advanced9()
-print('++++++++ Advanced 7 +++++++++')
+print('++++++++ Advanced 9 +++++++++')
 a9.ques1()
 a9.ques2()
 a9.ques3()
 a9.ques4()
+print('++++++++ END ++++++++++++++\n')
+
+a10 = Advanced10()
+print('++++++++ Advanced 10 +++++++++')
+a10.ques1()
+a10.ques2()
+a10.ques4()
 print('++++++++ END ++++++++++++++\n')
